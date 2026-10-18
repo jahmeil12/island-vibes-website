@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Sunset over the sea with palm trees">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1b3a"/>
+      <stop offset="0.55" stop-color="#e4572e"/>
+      <stop offset="1" stop-color="#fed100"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="400" cy="300" r="90" fill="#fff3b0" opacity="0.95"/>
+  <rect y="300" width="800" height="200" fill="#0b4f6c"/>
+  <path d="M0 330 Q100 310 200 330 T400 330 T600 330 T800 330 V500 H0Z" fill="#0e6d8f" opacity="0.8"/>
+  <path d="M0 380 Q100 360 200 380 T400 380 T600 380 T800 380 V500 H0Z" fill="#009b3a" opacity="0.55"/>
+  <g stroke="#0a0a0a" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M120 480 Q135 380 150 290"/>
+    <path d="M150 290 Q110 270 70 285"/><path d="M150 290 Q130 255 95 245"/>
+    <path d="M150 290 Q190 270 230 290"/><path d="M150 290 Q175 250 215 245"/>
+    <path d="M660 480 Q650 400 640 330"/>
+    <path d="M640 330 Q610 315 580 325"/><path d="M640 330 Q650 300 685 295"/>
+    <path d="M640 330 Q675 320 705 340"/>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+/* Island Vibes - shared styles */
+:root {
+  --jam-green: #009b3a;
+  --jam-gold: #fed100;
+  --jam-black: #111111;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  color: #1c1c1c;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--jam-gold);
+  color: #000;
+  padding: 0.5rem 1rem;
+  z-index: 2000;
+}
+.skip-link:focus { left: 0; }
+
+:focus-visible {
+  outline: 3px solid var(--jam-gold);
+  outline-offset: 2px;
+}
+
+.navbar-brand span { color: var(--jam-gold); }
+.navbar .nav-link.active { color: var(--jam-gold) !important; font-weight: 600; }
+
+.hero {
+  background: linear-gradient(135deg, var(--jam-black) 0%, #0b3d1e 100%);
+  color: #fff;
+}
+.hero .lead { color: #e8e8e8; }
+
+.btn-gold {
+  background-color: var(--jam-gold);
+  border-color: var(--jam-gold);
+  color: #111;
+  font-weight: 600;
+}
+.btn-gold:hover, .btn-gold:focus {
+  background-color: #e6bc00;
+  border-color: #e6bc00;
+  color: #111;
+}
+
+.section-title { border-left: 6px solid var(--jam-green); padding-left: 0.75rem; }
+
+.event-card { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.event-card:hover { transform: translateY(-4px); box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15) !important; }
+
+.feature-icon { font-size: 2rem; }
+
+.genre-btn.active { background-color: var(--jam-green); border-color: var(--jam-green); color: #fff; }
+
+footer { background: var(--jam-black); color: #ddd; }
+footer a { color: var(--jam-gold); }
