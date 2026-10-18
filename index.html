@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover reggae, dancehall, soca and more live events across Jamaica.">
+  <title>Island Vibes | Jamaican Music and Events</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Island <span>Vibes</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero py-5" aria-labelledby="heroTitle">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <h1 id="heroTitle" class="display-4 fw-bold">Feel the rhythm of the island</h1>
+            <p class="lead">Find live reggae, dancehall, soca and gospel events across Jamaica, then register your tickets in minutes.</p>
+            <a href="events.html" class="btn btn-gold btn-lg me-2 mb-2">Explore events</a>
+            <a href="register.html" class="btn btn-outline-light btn-lg mb-2">Register now</a>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/hero.svg" class="img-fluid rounded shadow" alt="Illustration of a sunset over the sea with palm trees">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5" aria-labelledby="featuredTitle">
+      <h2 id="featuredTitle" class="section-title mb-4">Featured events</h2>
+      <div class="row g-4" id="featuredGrid"></div>
+      <div class="text-center mt-4">
+        <a href="events.html" class="btn btn-success">See all events</a>
+      </div>
+    </section>
+
+    <section class="container my-5" aria-labelledby="whyTitle">
+      <h2 id="whyTitle" class="section-title mb-4">Why Island Vibes?</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <article class="card h-100 text-center p-3">
+            <div class="feature-icon" aria-hidden="true">&#127925;</div>
+            <h3 class="h5 mt-2">Every genre</h3>
+            <p class="mb-0">From roots reggae to afrobeats, filter events by the sound you love.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="card h-100 text-center p-3">
+            <div class="feature-icon" aria-hidden="true">&#127903;</div>
+            <h3 class="h5 mt-2">Easy registration</h3>
+            <p class="mb-0">Pick an event, choose your tickets and see your total instantly.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="card h-100 text-center p-3">
+            <div class="feature-icon" aria-hidden="true">&#127796;</div>
+            <h3 class="h5 mt-2">Across the island</h3>
+            <p class="mb-0">Events in Kingston, Negril, Ocho Rios, Mandeville and beyond.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5" aria-labelledby="faqTitle">
+      <h2 id="faqTitle" class="section-title mb-4">Frequently asked questions</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+              How do I register for an event?
+            </button>
+          </h3>
+          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Open the Register page, choose your event, enter your details and select how many tickets you need.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+              Are there free events?
+            </button>
+          </h3>
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Yes. Some events, such as gospel nights, are free. They show a "Free" price on the events page.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+              How many tickets can I request?
+            </button>
+          </h3>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">You can register up to 10 tickets per request.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4 mt-5">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <p class="mb-0">&copy; <span class="current-year"></span> Island Vibes. Music and events across Jamaica.</p>
+      <p class="mb-0"><a href="events.html">Browse events</a> | <a href="register.html">Register now</a></p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
